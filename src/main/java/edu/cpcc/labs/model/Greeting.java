@@ -36,6 +36,8 @@ public class Greeting {
     	builder.append(this.getId());
     	builder.append(":");
     	builder.append(this.getMessage());
+    	builder.append(",");
+    	builder.append("Have a nice day !!");
     	return builder.toString();
     }
 }
